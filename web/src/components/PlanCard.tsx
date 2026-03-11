@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { fetchTodayPlan, swapExercise } from '@/lib/api';
-import { PencilIcon, ArrowPathIcon } from '@heroicons/react/24/outline';
+import { PencilIcon, ArrowPathIcon, RefreshIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 import SwapModal from '@/components/SwapModal';
 
